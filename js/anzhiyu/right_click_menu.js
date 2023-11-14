@@ -403,10 +403,6 @@ function addRightMenuClickEvent() {
     }
   });
 
-  document.getElementById("menu-commenttext").addEventListener("click", function () {
-    rm.rightMenuCommentText(selectTextNow);
-  });
-
   document.getElementById("menu-newwindow").addEventListener("click", function () {
     window.open(domhref, "_blank");
     rm.hideRightMenu();
