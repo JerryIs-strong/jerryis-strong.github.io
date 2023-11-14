@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>討論一下關於如何設計ppt</title>
+      <link href="/posts/jp-28506/"/>
+      <url>/posts/jp-28506/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Onedrive"><a href="#Onedrive" class="headerlink" title="Onedrive"></a>Onedrive</h2><p>沒錯，第一樣要説的話題不是PowerPoint(^&#x2F;&#x2F;&#x2F;^)<br>相信現在購買的筆記本中，大多都會預裝了Microsoft 365和Onedrive，而Microsoft 365就是基於Onedrive實現的，相信我，Onedrive會為你帶來很大的幸福感 - 它隨時隨地都會自動幫你保存，不會發生Windows update而沒有保存的尷尬情況[]<del>(￣▽￣)</del>*<br>同時Microsoft 365現在的線上共同協作已經十分成熟，至少我覺得是比Google Slides好(功能上)👉👈<br>經過我做過的幾個Project的經驗來説，是沒有問題的，就是在嵌入字體的情況下，其他使用者在網頁中的編輯不了（；´д｀）ゞ<br> 1.點選ppt檔案，<code>右擊</code><br> 2.點選<code>共用</code><br> 3.點選<code>複製鏈接</code>，直接分享就可以了(記得要授權編輯的權限!!)</p><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>先由最基本的背景講起，先聲明，我是一個超級强迫症（；´д｀）ゞ<br>超級接受不了那些<span class="hide-inline"><button type="button" class="hide-button" style="background-color: black;color: yellow">黑底黃字  </button><span class="hide-content">黑底黃字</span></span>、<span class="hide-inline"><button type="button" class="hide-button" style="background-color: black;color: red">黑底紅字  </button><span class="hide-content">黑底紅字</span></span>和<span class="hide-inline"><button type="button" class="hide-button" style="">%$%$@%#^%@^  </button><span class="hide-content">一大串文字的</span></span><br>很噁有沒有(lll￢ω￢)<br>因此，我的建議是，盡量選擇淺色的色調作為背景，同時一較為深色的文字顔色作為襯托，可以提高可讀性<br>同時，請謹記這是<mark class="hl-label orange">PowerPoint</mark> ，<mark class="hl-label orange">Point</mark> 是重點，千萬不要把一段文字塞進去，會很”難看”的(‾◡◝)<br>那什麽時候可以運用深色的背景!?<br>我的建議是在ppt的最後，如”The end”、”Reference”等頁面適當使用，可以提升ppt的質感</p><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='/image/gallery/28506/01.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">首頁</div>  <p>運用淺色的色調作為背景</p>  <a href='#背景'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='/image/gallery/28506/02.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">尾頁</div>  <p>適當運用深色背景</p>  <a href='#背景'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Design </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>關於Android取得Root權限</title>
+      <link href="/posts/jp-7533/"/>
+      <url>/posts/jp-7533/</url>
+      
+        <content type="html"><![CDATA[<div class="note danger flat"><p>不同廠商、裝置的改機方式各有不同，如果在刷機時遇到任何問題，請善用Google解決問題！(●’◡’●)</p></div><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在2020年的夏天，我購入了真正意義上的第一部手機-Samsung galaxy A51。爲什麽是”真正意義上”的呢，因爲嚴格來説我第一部手機是Apple的iPhone 6(但不是我買的)。而到了2022年，我購入了人生中的第二部手機-Xiaomi 12X(當時糾結了好久，因爲對於MIUI的印象不太好)，而因爲我的A51正式”退役了”，因此我也有了開始”搞基”的念頭…</p><h2 id="尋找資源"><a href="#尋找資源" class="headerlink" title="尋找資源"></a>尋找資源</h2><p>一下我列出了一些常見的資源平臺:</p><ul><li><a href="https://forum.xda-developers.com/">xda: 一個蠻老的刷機資源平臺，聚集了全球各地的開發者</a></li><li><a href="https://www.coolapk.com/">Coolapk: 國内比較流行的交流平臺，聚集了全國業餘開發者</a><br>入門教學:</li><li><a href="https://www.youtube.com/watch?v=AcWvTfdm1vE">Linzin 阿哲</a></li><li><a href="https://www.youtube.com/watch?v=wz-ErdDf8AM&t=414s">極客灣Geekerwan</a></li></ul><h2 id="什麽是Root-Magisk-Manager"><a href="#什麽是Root-Magisk-Manager" class="headerlink" title="什麽是Root&#x2F;Magisk Manager?"></a>什麽是Root&#x2F;Magisk Manager?</h2><div class="note info modern"><p>Root是Android系統的一個術語，它使得使用者可以取得Android作業系統的超級使用者權限。</p></div><p>爲了兼顧系統出廠的安全、穩定、流暢性等等多方面的因素，系統出廠的權限較低，透過<code>Root</code>能夠取得Android手機的<code>超級用戶</code>權限，進而可以修改系統底層甚至控制硬件等等的操作。Magisk Manager就是其中一個管理程式，負責協助我們取得、分配、與管理這個<code>超級用戶</code>權限，也是當今流行的管理器。</p><h2 id="我的第一次"><a href="#我的第一次" class="headerlink" title="我的第一次"></a>我的第一次</h2><p>由於Samsung比較特殊的原因，因此第一次的刷機過程還是比較坎坷(ಥ _ ಥ)<br>好了，衆所周知一般刷機可以以卡刷<code>卡刷(Via Recovery)</code>或<code>線刷(Via fastboot)</code>，而我經過了一番資料搜尋之後果斷選擇了後者(主要是<code>卡刷</code>的教程比較少…嗎(?))</p><h3 id="解鎖Bootloader"><a href="#解鎖Bootloader" class="headerlink" title="解鎖Bootloader"></a>解鎖Bootloader</h3><div class="note danger modern"><p>部分廠商在解鎖Bootloader後會失去保修服務，如Samsung更會物理熔斷Knox芯片，你將會失去部分Samsung特色功能</p></div><div class="note danger modern"><p>完成解鎖後會清除裝置上的所有資料，請確保解鎖前完成完整的備份</p></div><div class="note info modern"><p>引導加載程序是供應商專有的映像，負責在設備上啟動內核。引導加載程序保護設備狀態，並負責初始化可信執行環境 (TEE)並綁定其信任根。在將執行轉移到內核之前，引導加載程序還會驗證boot分區和recovery分區的完整性。<br>在解鎖Bootloader後，使用者就可以對原來的保護分區進行寫入等操作。</p></div><p>通常我們會是用fastboot來解鎖Bootloader，但Samsung比較”特別”，只能進入<code>Download</code>模式進行解鎖:</p><p> 1.備份<br> 2.設置&gt;關於手機&gt;軟件信息&gt;點擊<code>內置編號</code>七次，系統將提示<code>開發人員模式已打開</code><br> 3.進入<code>開發人員模式</code><br> 4.開啓<code>OEM解鎖</code><br> 5.關機<br> 6.同時按下<code>音量上鍵</code>與<code>音量下鍵</code>，並同時連接電源線<br> 7.根據螢幕上的指示，長按<code>音量上鍵</code><br> 8.再次按下<code>音量上鍵</code>完成解鎖</p><h3 id="a-卡刷篇-刷入第三方Recovery-取得root權限"><a href="#a-卡刷篇-刷入第三方Recovery-取得root權限" class="headerlink" title="(a).卡刷篇: 刷入第三方Recovery&amp;取得root權限"></a>(a).卡刷篇: 刷入第三方Recovery&amp;取得root權限</h3><div class="note danger modern"><p>注意: 選擇的Recovery必須與當前設備適配，不同機型&#x2F;Android version的Recovery不能通用。</p></div><p>通常在官方的Recovery中，廠商僅會提供基本的功能，而更多進階的功能。當今有OrangeFox、TWRP 等各式各樣的Recovery，而當中TWRP也是現今較爲知名的rec(Recovery)。我們能在TWRP官網和XDM論壇中找到適配當前設備的Recovery:</p><p> 1.下載適用於適配當前設備的Recovery包<code>(.tar)</code><br> 2.在PC中下載<code>Odin</code><br> 3.解壓<code>Odin</code><br> 4.開啓<code>Odinx_vx.xx.x.exe</code><br> 5.設備同時按下<code>音量上鍵</code>與<code>音量下鍵</code>，並同時連接電源線進入<code>Download</code>模式<br> 6.點擊<code>AP</code>一欄，並選擇步驟1中下載好的Recovery包<code>(.tar)</code><br> 7.點擊<code>options</code><br> 8.取消勾選<code>Auto Reboot</code><br> 9.點擊<code>Start</code>開始刷入<br> 10.等待刷寫完成後同時按下<code>音量下鍵</code>與<code>電源鍵</code><br> 11.設備息屏後迅速按下<code>音量上鍵</code>與<code>電源鍵</code><br> 12.如果Recovery包沒有問題的話，設備會成功進入到TWRP;如果設備出現不斷重啓的情況，請尋找另外一個已適配當前設備的Recovery包；並重複步驟5<br> 13.PC進入Github下載對應的Magisk文件(.zip): </p><ul><li><a href="https://github.com/topjohnwu/Magisk">Magisk Official</a></li><li><a href="https://huskydg.github.io/magisk-files/">Magisk Delta(推介，以取得更好的隱藏效果)</a></li></ul><p> 14.拖拽步驟12中下載的文件到手機中<br> 15.點擊<code>Install</code><br> 16.手機中找到步驟12中下載的文件，並點擊，根據提示拖動安裝<br> 17.點擊<code>Wipe Cache/Dalvik</code>清理緩存<br> 18.點擊<code>Reboot System</code>重啓至系統<br> 19.找到系統中的File manager並把手機中Magisk的源文件(步驟15拷貝到手機中的.zip)，並改後綴為<code>(.apk)</code>安裝<br> 20.成功安裝Magisk manager，如果底下的<code>超級用戶</code>可以點擊代表root完成。恭喜你以獲得<code>超級用戶</code>權限，你可以開始你快樂的刷機之旅！</p><h3 id="b-線刷篇-修補boot以獲得root權限"><a href="#b-線刷篇-修補boot以獲得root權限" class="headerlink" title="(b).線刷篇: 修補boot以獲得root權限"></a>(b).線刷篇: 修補boot以獲得root權限</h3><div class="note danger modern"><p>修補boot後會清除裝置上的所有資料，請確保解鎖前完成完整的備份</p></div><div class="note info modern"><p>此章節的教學來源至<a href="https://magiskapp.com/root-samsung-galaxy-a51-using-magisk/">Magisk App</a>，著作權歸作者所有，如轉寄其内容請註明出處</p></div><p>儘管我們不使用或我們沒有(不懂編譯)Recovery，我們也可以提取系統的boot鏡像，並交給Magisk manager進行修補:</p><p> 1.由刷機包中提取boot鏡像，Samsung推介使用<a href="https://samfw.com/firmware/">SamFww</a>取得官方刷機包<br> 2.下載<a href="https://github.com/lz4/lz4/releases">LZ4</a>並解壓<br> 3.將下載的固件包解壓到PC上<br> 4.打開解壓後的文件夾<br> 5.右鍵單擊 AP 固件文件，將鼠標懸停在 7-Zip 選項中，然後選擇<code>Extract files</code><br> 6.現在您將發現幾個文件以及<code>boot.img.lz4</code>和<code>vbmeta.img.lz4</code><br> 7.將<code>boot.img.lz4</code>和<code>vbmeta.img.lz4</code>複製到<code>LZ4 Installed</code>文件夾<br> 8.接下來我們必須將<code>.img.lz4</code>轉換為<code>.img</code>文件。為此，請按照以下步驟操作：</p><ul><li>打開<code>lz4</code>文件夾</li><li>將<code>.lz4</code>文件拖到<code>lz4.exe</code>程序中</li><li>該腳本會將文件轉換為<code>.img</code>格式</li><li>您必須將所有三個文件一一轉換</li></ul><p> 9.將設備連接到您的PC<br> 10.現在將<code>AP(未解壓)</code>文件從固件文件夾複製到手機的內部存儲中<br> 11.在手機上下載並安裝Magisk manager:</p><ul><li><a href="https://github.com/topjohnwu/Magisk">Magisk Official</a></li><li><a href="https://huskydg.github.io/">Magisk Delta(推介，以取得更好的隱藏效果)</a></li></ul><p> 12.找到系統中的File manager並安裝步驟11中下載的Magisk manager源文件(.apk)<br> 13.打開Magisk manager<br> 14.現在點擊<code>選擇並修補文件</code><br> 15.導航到內部存儲並選擇您之前(步驟10中)複製到手機的<code>AP</code>固件文件<br> 16.選擇文件後，點擊<code>LET&#39;S GO</code><br> 17.修補後的鏡像可以在<code>下載</code>文件夾中找到<br> 18.現在將手機連接到電腦並將<code>magisk_patched.tar</code>文件複製到電腦上的<code>固件文件夾</code><br> 19.現在轉到<code>LZ4</code>文件夾”並將<code>vbmeta.img</code>文件複製到<code>Magisk Patched</code>文件夾<br> 20.選擇<code>boot.img</code>並<code>vbmeta.img</code>歸檔，右鍵單擊文件，然後<code>添加到存檔</code><br> 21.選擇要<code>tar</code>的存檔格式 並點擊<code>確定</code><br> 22.設備同時按下<code>音量上鍵</code>與<code>音量下鍵</code>，並同時連接電源線進入<code>Download</code>模式<br> 23.PC開啓<code>Odinx_vx.xx.x.exe</code>:</p><ul><li>AP: 選擇修補後的<code>boot.tar</code>(步驟21中)</li><li>BL：選擇以<code>BL</code>開頭的固件文件</li><li>CP：選擇以<code>CP</code>開頭的固件文件</li><li>CSC：選擇以<code>HOME_CSC</code>開頭的固件文件</li></ul><p> 24.點擊<code>options</code><br> 25.取消勾選<code>Auto Reboot</code><br> 26.點擊<code>Start</code>開始刷入<br> 27.同時按下<code>音量下鍵</code>與<code>電源鍵</code>重啓<br> 28.設備息屏後迅速按下<code>音量上鍵</code>與<code>電源鍵</code>進入Recovery<br> 29.一旦 Galaxy A51 啟動進入庫存恢復模式:</p><ul><li>轉至<code>Wipe data/factory reset</code>（使用音量鍵在選項之間導航，使用電源鍵選擇選項）</li><li>選擇<code>factory reset</code></li><li>選擇<code>Reboot system now</code></li></ul><p> 30.設備會自動重啓，第一次啟動需要一些時間<br> 31.打開<code>Magisk</code>應用，如果底下的<code>超級用戶</code>可以點擊代表root完成。恭喜你以獲得<code>超級用戶</code>權限，你可以開始你快樂的刷機之旅！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Android </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Root </tag>
+            
+            <tag> Magisk </tag>
+            
+            <tag> Android </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>關於</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MY categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情鏈接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MY tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>

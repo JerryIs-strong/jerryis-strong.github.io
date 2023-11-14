@@ -1,1 +1,0 @@
-# jerryis-strong.github.io
