@@ -4,7 +4,7 @@
   <url>
     <loc>https://jerryis-strong.github.io/link/index.html</loc>
     
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,25 +13,7 @@
   <url>
     <loc>https://jerryis-strong.github.io/tags/index.html</loc>
     
-    <lastmod>2023-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/about/index.html</loc>
-    
-    <lastmod>2023-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/categories/index.html</loc>
-    
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +22,7 @@
   <url>
     <loc>https://jerryis-strong.github.io/posts/jp-7533/</loc>
     
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +31,25 @@
   <url>
     <loc>https://jerryis-strong.github.io/posts/jp-28506/</loc>
     
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/about/index.html</loc>
+    
+    <lastmod>2023-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/categories/index.html</loc>
+    
+    <lastmod>2023-11-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +58,7 @@
 
   <url>
     <loc>https://jerryis-strong.github.io/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,28 +66,28 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/tags/Root/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jerryis-strong.github.io/tags/Magisk/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jerryis-strong.github.io/tags/Android/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jerryis-strong.github.io/tags/Design/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -96,14 +96,14 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/categories/Android/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jerryis-strong.github.io/categories/Design/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
