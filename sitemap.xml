@@ -20,33 +20,6 @@
   </url>
   
   <url>
-    <loc>https://jerryis-strong.github.io/posts/jp-7533/</loc>
-    
-    <lastmod>2023-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/posts/jp-28506/</loc>
-    
-    <lastmod>2023-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/posts/jp-34818/</loc>
-    
-    <lastmod>2023-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jerryis-strong.github.io/posts/jp-19539/</loc>
     
     <lastmod>2023-11-21</lastmod>
@@ -66,6 +39,42 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/categories/index.html</loc>
+    
+    <lastmod>2023-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/posts/jp-7533/</loc>
+    
+    <lastmod>2023-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/posts/jp-33380/</loc>
+    
+    <lastmod>2023-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/posts/jp-28506/</loc>
+    
+    <lastmod>2023-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/posts/jp-34818/</loc>
     
     <lastmod>2023-11-21</lastmod>
     
@@ -98,6 +107,20 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/tags/Android/</loc>
+    <lastmod>2023-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/tags/Windows/</loc>
+    <lastmod>2023-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/tags/Script-Project/</loc>
     <lastmod>2023-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -148,6 +171,13 @@
   </url>
   
   <url>
+    <loc>https://jerryis-strong.github.io/categories/Windows/</loc>
+    <lastmod>2023-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jerryis-strong.github.io/categories/Design/</loc>
     <lastmod>2023-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -155,7 +185,7 @@
   </url>
   
   <url>
-    <loc>https://jerryis-strong.github.io/categories/life/</loc>
+    <loc>https://jerryis-strong.github.io/categories/Life/</loc>
     <lastmod>2023-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

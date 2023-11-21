@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Windows激活脚本</title>
+      <link href="/posts/jp-33380/"/>
+      <url>/posts/jp-33380/</url>
+      
+        <content type="html"><![CDATA[<h2 id="關於Windows-activator"><a href="#關於Windows-activator" class="headerlink" title="關於Windows activator"></a>關於Windows activator</h2><p>Windows activator采用了合法的KMS方法協助用戶激活Windows，而製作方法亦參考了Microsoft learn的官方文獻。但請切記，本激活工具僅提供學習與研究用途，如果日常或商業用途，請購買正版密鑰激活。</p><h2 id="工具特性"><a href="#工具特性" class="headerlink" title="工具特性"></a>工具特性</h2><ol><li>快速且成功率高</li><li>支持windows 8.1&#x2F;10&#x2F;11等多種系統</li><li>支持專業版&#x2F;教育版&#x2F;企業版的激活</li><li>大小僅2kb且無需安裝</li></ol><h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><ol><li>下載<a href="https://drive.google.com/file/d/1-23fzQTs-N7l70Vk4YShOhUrOBIAznmR/view?usp=sharing">源文件</a></li><li>右鍵</li><li>以管理員身份執行</li><li>按照指引激活</li></ol><h2 id="溫馨提示"><a href="#溫馨提示" class="headerlink" title="溫馨提示"></a>溫馨提示</h2><p>金鑰管理服務 (KMS) 用戶端啟用的過程中會與KMS主機進行資料交互，因爲KMS主機啟動的電腦具有特定的產品金鑰，與此同時，Windows activator使用了公共的KMS主機進行激活作業，我們無法確保妳資料100%的安全，因此我們僅建議作爲學習與研究用途(VM machine)的電腦中使用。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+            <tag> Script Project </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我是如此相信在背後支撐的是你</title>
       <link href="/posts/jp-34818/"/>
       <url>/posts/jp-34818/</url>
@@ -13,7 +40,7 @@
       
       <categories>
           
-          <category> life </category>
+          <category> Life </category>
           
       </categories>
       
