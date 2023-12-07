@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>https://jerryis-strong.github.io/posts/jp-7533/</loc>
-    
-    <lastmod>2023-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jerryis-strong.github.io/posts/jp-33380/</loc>
     
     <lastmod>2023-12-07</lastmod>
@@ -84,6 +75,15 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/essay/index.html</loc>
+    
+    <lastmod>2023-12-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/posts/jp-7533/</loc>
     
     <lastmod>2023-12-07</lastmod>
     
