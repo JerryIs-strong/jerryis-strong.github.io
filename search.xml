@@ -126,9 +126,9 @@
     
     
     <entry>
-      <title>MY categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>説説此刻</title>
+      <link href="/essay/index.html"/>
+      <url>/essay/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -137,9 +137,9 @@
     
     
     <entry>
-      <title>説説此刻</title>
-      <link href="/essay/index.html"/>
-      <url>/essay/index.html</url>
+      <title>MY categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
