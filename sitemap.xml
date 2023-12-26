@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jerryis-strong.github.io/posts/jp-11063/</loc>
+    
+    <lastmod>2023-12-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jerryis-strong.github.io/posts/jp-7533/</loc>
     
     <lastmod>2023-12-26</lastmod>
@@ -156,6 +165,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://jerryis-strong.github.io/tags/Annual-overview/</loc>
+    <lastmod>2023-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -181,6 +197,13 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/categories/Notepad/</loc>
+    <lastmod>2023-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/categories/Annual-overview/</loc>
     <lastmod>2023-12-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
