@@ -20,6 +20,15 @@
   </url>
   
   <url>
+    <loc>https://jerryis-strong.github.io/posts/jp-57590/</loc>
+    
+    <lastmod>2023-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jerryis-strong.github.io/posts/jp-28506/</loc>
     
     <lastmod>2023-12-28</lastmod>
@@ -154,6 +163,27 @@
   </url>
   
   <url>
+    <loc>https://jerryis-strong.github.io/tags/XIAOMI/</loc>
+    <lastmod>2023-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/tags/PRESS-CONFERENCE/</loc>
+    <lastmod>2023-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/tags/%E5%B0%88%E9%A1%8C/</loc>
+    <lastmod>2023-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jerryis-strong.github.io/tags/Design/</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -192,6 +222,13 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/categories/Windows/</loc>
+    <lastmod>2023-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/categories/XIAOMI/</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
