@@ -1,0 +1,26 @@
+div.table-wrap {
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+div.footer_mini_logo {
+    background: var(--anzhiyu-fontcolor);
+    filter: blur(0) brightness(1);
+    height: 50px;
+    width: 50px;
+}
+
+#footer_mini_logo::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: no-repeat var(--anzhiyu-icon-url);
+    background-size: 30px 30px;
+    display: block;
+    background-position: center;
+    margin: 10px 10px 10px 12px;
+}
+

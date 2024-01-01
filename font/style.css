@@ -21,11 +21,3 @@
   text-decoration: none;
   font-family: LXGWMarkerGothic, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
 }
-
-div.table-wrap {
-  border-radius: 0px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-}

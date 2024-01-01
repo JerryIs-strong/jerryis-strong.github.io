@@ -206,7 +206,7 @@
       <link href="/font/style.css"/>
       <url>/font/style.css</url>
       
-        <content type="html"><![CDATA[@font-face {    font-family: XiaolaiSC;    src: url(./XiaolaiSC-Regular.ttf);}@font-face {  font-family: LXGWMarkerGothic;  src: url(./LXGWMarkerGothic-Regular.ttf);}@font-face {  font-family: Smiley Sans;  src: url(./SmileySans-Oblique.ttf);}#article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not( .no-text-decoration ) {  font-weight: 500;  border-bottom: solid 2px var(--anzhiyu-lighttext);  color: var(--anzhiyu-fontcolor);  padding: 0 0.2em;  text-decoration: none;  font-family: LXGWMarkerGothic, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;}div.table-wrap {  border-radius: 0px;  border-top-left-radius: 0px;  border-top-right-radius: 0px;  border-bottom-right-radius: 0px;  border-bottom-left-radius: 0px;}]]></content>
+        <content type="html"><![CDATA[@font-face {    font-family: XiaolaiSC;    src: url(./XiaolaiSC-Regular.ttf);}@font-face {  font-family: LXGWMarkerGothic;  src: url(./LXGWMarkerGothic-Regular.ttf);}@font-face {  font-family: Smiley Sans;  src: url(./SmileySans-Oblique.ttf);}#article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not( .no-text-decoration ) {  font-weight: 500;  border-bottom: solid 2px var(--anzhiyu-lighttext);  color: var(--anzhiyu-fontcolor);  padding: 0 0.2em;  text-decoration: none;  font-family: LXGWMarkerGothic, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;}]]></content>
       
     </entry>
     
@@ -251,6 +251,17 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/asset/CSS/style.css"/>
+      <url>/asset/CSS/style.css</url>
+      
+        <content type="html"><![CDATA[div.table-wrap {    border-radius: 0px;    border-top-left-radius: 0px;    border-top-right-radius: 0px;    border-bottom-right-radius: 0px;    border-bottom-left-radius: 0px;}div.footer_mini_logo {    background: var(--anzhiyu-fontcolor);    filter: blur(0) brightness(1);    height: 50px;    width: 50px;}#footer_mini_logo::after {    content: '';    width: 30px;    height: 30px;    background: no-repeat var(--anzhiyu-icon-url);    background-size: 30px 30px;    display: block;    background-position: center;    margin: 10px 10px 10px 12px;}]]></content>
       
     </entry>
     

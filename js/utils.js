@@ -1034,7 +1034,7 @@ const anzhiyu = {
     const randomAdjective = adjectives[Math.floor(Math.random() * adjectives.length)];
 
     // 从蔬菜水果动物名字数组中随机取一个值
-    const randomName = vegetablesAndFruits[Math.floor(Math.random() * vegetablesAndFruits.length)];
+    const randomName = CharacterNames[Math.floor(Math.random() * CharacterNames.length)];
 
     // 将两个值组合成一个字符串
     const name = `${randomAdjective}${randomName}`;

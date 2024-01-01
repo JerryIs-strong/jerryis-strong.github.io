@@ -2777,6 +2777,7 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-wihite-font: #fff;
+  --anzhiyu-icon-url: url("/image/favicon.png");
 }
 @media (prefers-color-scheme: dark) {
 }
@@ -2817,6 +2818,7 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102,68,68,0);
   --anzhiyu-wihite-font: #f6f6f6;
+  --anzhiyu-icon-url: url("/image/favicon-dark.png");
 }
 body {
   position: relative;

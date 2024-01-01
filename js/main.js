@@ -100,47 +100,8 @@ var adjectives = [
   "有專業素養的",
   "有商業頭腦的",
 ];
-var vegetablesAndFruits = [
-  "蘿蔔",
-  "白菜",
-  "芹菜",
-  "生菜",
-  "青椒",
-  "辣椒",
-  "茄子",
-  "豆角",
-  "黃瓜",
-  "西紅柿",
-  "洋蔥",
-  "大蒜",
-  "馬鈴薯",
-  "南瓜",
-  "豆腐",
-  "韭菜",
-  "花菜",
-  "綠色花椰菜",
-  "蘑菇",
-  "金針菇",
-  "蘋果",
-  "香蕉",
-  "橘子",
-  "檸檬",
-  "奇異果",
-  "草莓",
-  "葡萄",
-  "桃子",
-  "杏子",
-  "李子",
-  "石榴",
-  "西瓜",
-  "哈密瓜",
-  "蜜瓜",
-  "櫻桃",
-  "藍莓",
-  "柿子",
-  "橄欖",
-  "柚子",
-  "火龍果",
+var CharacterNames = [
+  "Sensei"
 ];
 
 // 已随机的歌曲
@@ -807,7 +768,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (mode === "light") {
       menuDarkmodeText.textContent = "深色模式";
     } else {
-      menuDarkmodeText.textContent = "浅色模式";
+      menuDarkmodeText.textContent = "淺色模式";
     }
 
     if (!GLOBAL_CONFIG_SITE.isPost) {
