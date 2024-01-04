@@ -10784,6 +10784,17 @@ h1.page-title + .tag-cloud-list {
   background-attachment: fixed;
   border-radius: 0;
 }
+@media screen and (max-width: 768px) {
+  #page-header #center-console + label i {
+    background: var(--font-color);
+  }
+}
+#page-header #site-info {
+  position: absolute;
+  top: 43%;
+  padding: 0 10px;
+  width: 100%;
+}
 #page-header #site-title,
 #page-header #site-subtitle,
 #page-header #scroll-down .scroll-down-effects {
@@ -13482,6 +13493,32 @@ h1.page-title + .tag-cloud-list {
     transition: 0.3s;
     -webkit-box-shadow: var(--anzhiyu-shadow-main);
     box-shadow: var(--anzhiyu-shadow-main);
+  }
+}
+@media screen and (max-width: 768px) {
+  #nav {
+    background: var(--anzhiyu-card-bg) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page-header #nav #site-name,
+  #page-header #nav #toggle-menu,
+  #page-header:not(.not-top-img) #nav .back-home-button {
+    color: var(--font-color) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #blog_name a,
+  .mask-name-container a,
+  #menus a,
+  #nav-right .nav-button a,
+  #nav-right #toggle-menu a {
+    color: var(--font-color) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  div#bbTimeList {
+    margin: 20px 15px !important;
   }
 }
 #pagination .toPageGroup {
@@ -19245,8 +19282,7 @@ p.p.gray {
   --timeline-bg: #1f1f1f;
 }
 [data-theme='dark'] #web_bg:before,
-[data-theme='dark'] #footer:before,
-[data-theme='dark'] #page-header:before {
+[data-theme='dark'] #footer:before {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -19256,7 +19292,11 @@ p.p.gray {
   pointer-events: none;
 }
 [data-theme='dark'] #footer {
-  background-color: var(--anzhiyu-card-bg);
+  background: -webkit-linear-gradient(270deg, var(--anzhiyu-card-bg-none) 0%, rgba(29,30,34,0.941) 45%);
+  background: -moz-linear-gradient(270deg, var(--anzhiyu-card-bg-none) 0%, rgba(29,30,34,0.941) 45%);
+  background: -o-linear-gradient(270deg, var(--anzhiyu-card-bg-none) 0%, rgba(29,30,34,0.941) 45%);
+  background: -ms-linear-gradient(270deg, var(--anzhiyu-card-bg-none) 0%, rgba(29,30,34,0.941) 45%);
+  background: linear-gradient(180deg, var(--anzhiyu-card-bg-none) 0%, rgba(29,30,34,0.941) 45%);
 }
 [data-theme='dark'] #article-container pre > code {
   background: #171717;
