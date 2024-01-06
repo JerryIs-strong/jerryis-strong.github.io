@@ -27,3 +27,7 @@ div.footer_mini_logo {
 #toPageText {
     background: var(--anzhiyu-toPageGroupBg);
 }
+
+[data-theme='light'] #page-header.nav-fixed > #nav{
+    backdrop-filter: blur(20px);
+}
