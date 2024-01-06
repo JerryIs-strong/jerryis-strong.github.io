@@ -24,10 +24,3 @@ div.footer_mini_logo {
     margin: 10px 10px 10px 12px;
 }
 
-#toPageText {
-    background: var(--anzhiyu-toPageGroupBg);
-}
-
-[data-theme='light'] #page-header.nav-fixed > #nav{
-    backdrop-filter: blur(20px);
-}
