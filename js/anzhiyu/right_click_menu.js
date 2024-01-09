@@ -1,5 +1,5 @@
 // 初始化函数
-let rm = {};
+rm = {};
 
 //禁止图片与超链接拖拽
 let aElements = document.getElementsByTagName("a");
@@ -61,6 +61,7 @@ var oncontextmenuFunction = function (event) {
     const $rightMenuPlugin = document.querySelector(".rightMenuPlugin");
     const $rightMenuCopyText = document.querySelector("#menu-copytext");
     const $rightMenuPasteText = document.querySelector("#menu-pastetext");
+    const $rightMenuCommentText = document.querySelector("#menu-commenttext");
     const $rightMenuNewWindow = document.querySelector("#menu-newwindow");
     const $rightMenuNewWindowImg = document.querySelector("#menu-newwindowimg");
     const $rightMenuCopyLink = document.querySelector("#menu-copylink");
@@ -86,10 +87,12 @@ var oncontextmenuFunction = function (event) {
     if (selectTextNow && window.getSelection()) {
       pluginMode = true;
       $rightMenuCopyText.style.display = "block";
+      $rightMenuCommentText.style.display = "block";
       $rightMenuSearch.style.display = "block";
       $rightMenuSearchBaidu.style.display = "block";
     } else {
       $rightMenuCopyText.style.display = "none";
+      $rightMenuCommentText.style.display = "none";
       $rightMenuSearchBaidu.style.display = "none";
       $rightMenuSearch.style.display = "none";
     }
@@ -175,14 +178,14 @@ rm.downloadimging = false;
 
 // 复制图片到剪贴板
 rm.writeClipImg = function (imgsrc) {
-  console.log("按下複製");
+  console.log("按下复制");
   rm.hideRightMenu();
-  anzhiyu.snackbarShow("正在下載中，請稍後", false, 10000);
+  anzhiyu.snackbarShow("正在下载中，请稍后", false, 10000);
   if (rm.downloadimging == false) {
     rm.downloadimging = true;
     setTimeout(function () {
       copyImage(imgsrc);
-      anzhiyu.snackbarShow("複製成功！ 圖片已添加盲水印，請遵守版權協議");
+      anzhiyu.snackbarShow("复制成功！图片已添加盲水印，请遵守版权协议");
       rm.downloadimging = false;
     }, "10000");
   }
@@ -270,7 +273,7 @@ rm.copyPageUrl = function (url) {
     url = window.location.href;
   }
   rm.copyUrl(url);
-  anzhiyu.snackbarShow("複製連結地址成功", false, 2000);
+  anzhiyu.snackbarShow("复制链接地址成功", false, 2000);
   rm.hideRightMenu();
 };
 
@@ -325,6 +328,32 @@ rm.pasteText = function () {
   rm.hideRightMenu();
 };
 
+//引用到评论
+rm.rightMenuCommentText = function (txt) {
+  rm.hideRightMenu();
+  const postCommentDom = document.getElementById("post-comment");
+  var domTop = postCommentDom.offsetTop;
+  window.scrollTo(0, domTop - 80);
+  if (txt == "undefined" || txt == "null") txt = "好棒！";
+  function setText() {
+    setTimeout(() => {
+      var input = document.getElementsByClassName("el-textarea__inner")[0];
+      if (!input) setText();
+      let evt = document.createEvent("HTMLEvents");
+      evt.initEvent("input", true, true);
+      let inputValue = replaceAll(txt, "\n", "\n> ");
+      input.value = "> " + inputValue + "\n\n";
+      input.dispatchEvent(evt);
+      input.focus();
+      input.setSelectionRange(-1, -1);
+      if (document.getElementById("comment-tips")) {
+        document.getElementById("comment-tips").classList.add("show");
+      }
+    }, 100);
+  }
+  setText();
+};
+
 //替换所有内容
 function replaceAll(string, search, replace) {
   return string.split(search).join(replace);
@@ -332,9 +361,9 @@ function replaceAll(string, search, replace) {
 
 // 百度搜索
 rm.searchBaidu = function () {
-  anzhiyu.snackbarShow("即將跳到Google搜尋", false, 2000);
+  anzhiyu.snackbarShow("即将跳转到百度搜索", false, 2000);
   setTimeout(function () {
-    window.open("https://www.google.com/search?q=https://www.google.com/search?q=" + selectTextNow);
+    window.open("https://www.baidu.com/s?wd=" + selectTextNow);
   }, "2000");
   rm.hideRightMenu();
 };
@@ -342,7 +371,7 @@ rm.searchBaidu = function () {
 //分享链接
 rm.copyLink = function () {
   rm.rightmenuCopyText(domhref);
-  anzhiyu.snackbarShow("已複製連結地址");
+  anzhiyu.snackbarShow("已复制链接地址");
 };
 
 function addRightMenuClickEvent() {
@@ -363,6 +392,11 @@ function addRightMenuClickEvent() {
 
   document.getElementById("menu-top").addEventListener("click", function () {
     anzhiyu.scrollToDest(0, 500);
+    rm.hideRightMenu();
+  });
+
+  document.getElementById("menu-translate").addEventListener("click", function () {
+    window.translateFn.translatePage();
     rm.hideRightMenu();
   });
 
@@ -403,6 +437,10 @@ function addRightMenuClickEvent() {
     }
   });
 
+  document.getElementById("menu-commenttext").addEventListener("click", function () {
+    rm.rightMenuCommentText(selectTextNow);
+  });
+
   document.getElementById("menu-newwindow").addEventListener("click", function () {
     window.open(domhref, "_blank");
     rm.hideRightMenu();
@@ -434,7 +472,7 @@ function addRightMenuClickEvent() {
 
   document.getElementById("menu-music-copyMusicName").addEventListener("click", function () {
     rm.rightmenuCopyText(anzhiyu.musicGetName());
-    anzhiyu.snackbarShow("複製歌曲名稱成功", false, 3000);
+    anzhiyu.snackbarShow("复制歌曲名称成功", false, 3000);
   });
 }
 

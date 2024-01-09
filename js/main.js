@@ -9,99 +9,141 @@ var anzhiyu_intype = false;
 var anzhiyu_keyUpEvent_timeoutId = null;
 var anzhiyu_keyUpShiftDelayEvent_timeoutId = null;
 
+// 右键菜单对象
+var rm = null;
+
 var popupWindowTimer = null;
 
 var adjectives = [
-  "美麗的",
+  "美丽的",
   "英俊的",
-  "聰明的",
+  "聪明的",
   "勇敢的",
-  "可愛的",
+  "可爱的",
   "慷慨的",
   "善良的",
   "可靠的",
-  "開朗的",
+  "开朗的",
   "成熟的",
-  "穩重的",
-  "真誠的",
+  "稳重的",
+  "真诚的",
   "幽默的",
-  "豁達的",
+  "豁达的",
   "有趣的",
-  "活潑的",
-  "優雅的",
+  "活泼的",
+  "优雅的",
   "敏捷的",
-  "溫柔的",
-  "溫暖的",
-  "敬業的",
-  "細心的",
+  "温柔的",
+  "温暖的",
+  "敬业的",
+  "细心的",
   "耐心的",
   "深沉的",
-  "樸素的",
+  "朴素的",
   "含蓄的",
   "率直的",
-  "開放的",
-  "務實的",
-  "堅強的",
+  "开放的",
+  "务实的",
+  "坚强的",
   "自信的",
-  "謙虛的",
-  "文靜的",
+  "谦虚的",
+  "文静的",
   "深刻的",
-  "純真的",
-  "朝氣蓬勃的",
+  "纯真的",
+  "朝气蓬勃的",
   "慎重的",
   "大方的",
-  "頑強的",
+  "顽强的",
   "迷人的",
-  "機智的",
+  "机智的",
   "善解人意的",
-  "富有想像力的",
+  "富有想象力的",
   "有魅力的",
-  "獨立的",
+  "独立的",
   "好奇的",
-  "乾淨的",
-  "寬容的",
+  "干净的",
+  "宽容的",
   "尊重他人的",
-  "體貼的",
+  "体贴的",
   "守信的",
   "有耐性的",
-  "有責任心的",
-  "有擔當的",
-  "有遠見的",
+  "有责任心的",
+  "有担当的",
+  "有远见的",
   "有智慧的",
   "有眼光的",
-  "有冒險精神的",
-  "有愛心的",
+  "有冒险精神的",
+  "有爱心的",
   "有同情心的",
-  "喜歡思考的",
-  "喜歡學習的",
-  "具有批判性思考的",
-  "善於表達的",
-  "善於溝通的",
-  "善於合作的",
-  "善於領導的",
+  "喜欢思考的",
+  "喜欢学习的",
+  "具有批判性思维的",
+  "善于表达的",
+  "善于沟通的",
+  "善于合作的",
+  "善于领导的",
   "有激情的",
   "有幽默感的",
   "有思想的",
-  "有個性的",
-  "有正義感的",
-  "有責任感的",
-  "有創意的",
-  "有想像力的",
-  "有藝術細胞的",
-  "有團隊精神的",
-  "有協調能力的",
-  "有決策能力的",
-  "有組織能力的",
-  "有學習能力的",
-  "有執行能力的",
+  "有个性的",
+  "有正义感的",
+  "有责任感的",
+  "有创造力的",
+  "有想象力的",
+  "有艺术细胞的",
+  "有团队精神的",
+  "有协调能力的",
+  "有决策能力的",
+  "有组织能力的",
+  "有学习能力的",
+  "有执行能力的",
   "有分析能力的",
-  "有邏輯思考的",
-  "有創新能力的",
-  "有專業素養的",
-  "有商業頭腦的",
+  "有逻辑思维的",
+  "有创新能力的",
+  "有专业素养的",
+  "有商业头脑的",
 ];
-var CharacterNames = [
-  "Sensei"
+var vegetablesAndFruits = [
+  "萝卜",
+  "白菜",
+  "芹菜",
+  "生菜",
+  "青椒",
+  "辣椒",
+  "茄子",
+  "豆角",
+  "黄瓜",
+  "西红柿",
+  "洋葱",
+  "大蒜",
+  "土豆",
+  "南瓜",
+  "豆腐",
+  "韭菜",
+  "花菜",
+  "西兰花",
+  "蘑菇",
+  "金针菇",
+  "苹果",
+  "香蕉",
+  "橙子",
+  "柠檬",
+  "猕猴桃",
+  "草莓",
+  "葡萄",
+  "桃子",
+  "杏子",
+  "李子",
+  "石榴",
+  "西瓜",
+  "哈密瓜",
+  "蜜瓜",
+  "樱桃",
+  "蓝莓",
+  "柿子",
+  "橄榄",
+  "柚子",
+  "火龙果",
 ];
 
 // 已随机的歌曲
@@ -182,51 +224,45 @@ document.addEventListener("DOMContentLoaded", function () {
     const highLight = GLOBAL_CONFIG.highlight;
     if (!highLight) return;
 
-    const isHighlightCopy = highLight.highlightCopy;
-    const isHighlightLang = highLight.highlightLang;
+    const { highlightCopy, highlightLang, highlightHeightLimit, plugin } = highLight;
     const isHighlightShrink = GLOBAL_CONFIG_SITE.isHighlightShrink;
-    const highlightHeightLimit = highLight.highlightHeightLimit;
-    const isShowTool = isHighlightCopy || isHighlightLang || isHighlightShrink !== undefined;
+    const isShowTool = highlightCopy || highlightLang || isHighlightShrink !== undefined;
     const $figureHighlight =
-      highLight.plugin === "highlighjs"
+      plugin === "highlight.js"
         ? document.querySelectorAll("figure.highlight")
         : document.querySelectorAll('pre[class*="language-"]');
 
     if (!((isShowTool || highlightHeightLimit) && $figureHighlight.length)) return;
 
-    const isPrismjs = highLight.plugin === "prismjs";
-
-    let highlightShrinkEle = "";
-    let highlightCopyEle = "";
+    const isPrismjs = plugin === "prismjs";
     const highlightShrinkClass = isHighlightShrink === true ? "closed" : "";
+    const highlightShrinkEle =
+      isHighlightShrink !== undefined
+        ? '<i class="anzhiyufont anzhiyu-icon-angle-down expand ${highlightShrinkClass}"></i>'
+        : "";
+    const highlightCopyEle = highlightCopy
+      ? '<div class="copy-notice"></div><i class="anzhiyufont anzhiyu-icon-paste copy-button"></i>'
+      : "";
 
-    if (isHighlightShrink !== undefined) {
-      highlightShrinkEle = `<i class="anzhiyufont anzhiyu-icon-angle-down expand ${highlightShrinkClass}"></i>`;
-    }
+    const alertInfo = (ele, text) => {
+      if (GLOBAL_CONFIG.Snackbar !== undefined) {
+        anzhiyu.snackbarShow(text);
+      } else {
+        const prevEle = ele.previousElementSibling;
+        prevEle.textContent = text;
+        prevEle.style.opacity = 1;
+        setTimeout(() => {
+          prevEle.style.opacity = 0;
+        }, 800);
+      }
+    };
 
-    if (isHighlightCopy) {
-      highlightCopyEle = '<div class="copy-notice"></div><i class="anzhiyufont anzhiyu-icon-paste copy-button"></i>';
-    }
-
-    const copy = (text, ctx) => {
+    const copy = ctx => {
       if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
         document.execCommand("copy");
-        if (GLOBAL_CONFIG.Snackbar !== undefined) {
-          anzhiyu.snackbarShow(GLOBAL_CONFIG.copy.success);
-        } else {
-          const prevEle = ctx.previousElementSibling;
-          prevEle.innerText = GLOBAL_CONFIG.copy.success;
-          prevEle.style.opacity = 1;
-          setTimeout(() => {
-            prevEle.style.opacity = 0;
-          }, 700);
-        }
+        alertInfo(ctx, GLOBAL_CONFIG.copy.success);
       } else {
-        if (GLOBAL_CONFIG.Snackbar !== undefined) {
-          anzhiyu.snackbarShow(GLOBAL_CONFIG.copy.noSupport);
-        } else {
-          ctx.previousElementSibling.innerText = GLOBAL_CONFIG.copy.noSupport;
-        }
+        alertInfo(ctx, GLOBAL_CONFIG.copy.noSupport);
       }
     };
 
@@ -236,28 +272,17 @@ document.addEventListener("DOMContentLoaded", function () {
       $buttonParent.classList.add("copy-true");
       const selection = window.getSelection();
       const range = document.createRange();
-      if (isPrismjs) range.selectNodeContents($buttonParent.querySelectorAll("pre code")[0]);
-      else range.selectNodeContents($buttonParent.querySelectorAll("table .code pre")[0]);
+      const preCodeSelector = isPrismjs ? "pre code" : "table .code pre";
+      range.selectNodeContents($buttonParent.querySelectorAll(`${preCodeSelector}`)[0]);
       selection.removeAllRanges();
       selection.addRange(range);
-      const text = selection.toString();
-      copy(text, ele.lastChild);
+      copy(ele.lastChild);
       selection.removeAllRanges();
       $buttonParent.classList.remove("copy-true");
     };
 
     const highlightShrinkFn = ele => {
-      const $nextEle = [...ele.parentNode.children].slice(1);
-      ele.firstChild.classList.toggle("closed");
-      if (anzhiyu.isHidden($nextEle[$nextEle.length - 1])) {
-        $nextEle.forEach(e => {
-          e.style.display = "block";
-        });
-      } else {
-        $nextEle.forEach(e => {
-          e.style.display = "none";
-        });
-      }
+      ele.classList.toggle("closed");
     };
 
     const highlightToolsFn = function (e) {
@@ -296,33 +321,29 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     };
 
-    if (isHighlightLang) {
-      if (isPrismjs) {
-        $figureHighlight.forEach(function (item) {
-          const langName = item.getAttribute("data-language") ? item.getAttribute("data-language") : "Code";
+    if (isPrismjs) {
+      $figureHighlight.forEach(item => {
+        if (highlightLang) {
+          const langName = item.getAttribute("data-language") || "Code";
           const highlightLangEle = `<div class="code-lang">${langName}</div>`;
           anzhiyu.wrap(item, "figure", { class: "highlight" });
           createEle(highlightLangEle, item);
-        });
-      } else {
-        $figureHighlight.forEach(function (item) {
-          let langName = item.getAttribute("class").split(" ")[1];
-          if (langName === "plain" || langName === undefined || langName === "plaintext") langName = "Code";
-          const highlightLangEle = `<div class="code-lang">${langName}</div>`;
-          createEle(highlightLangEle, item, "hl");
-        });
-      }
-    } else {
-      if (isPrismjs) {
-        $figureHighlight.forEach(function (item) {
+        } else {
           anzhiyu.wrap(item, "figure", { class: "highlight" });
           createEle("", item);
-        });
-      } else {
-        $figureHighlight.forEach(function (item) {
+        }
+      });
+    } else {
+      $figureHighlight.forEach(item => {
+        if (highlightLang) {
+          let langName = item.getAttribute("class").split(" ")[1];
+          if (langName === "plain" || langName === undefined) langName = "Code";
+          const highlightLangEle = `<div class="code-lang">${langName}</div>`;
+          createEle(highlightLangEle, item, "hl");
+        } else {
           createEle("", item, "hl");
-        });
-      }
+        }
+      });
     }
   };
 
@@ -529,7 +550,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (isInViewPortOfOneNoDis(pageBottomDomFlag || percentage > 90) && currentTop > 20) {
         $navTotop.classList.add("long");
-        $percentBtn.textContent = "回到頂部";
+        $percentBtn.textContent = "返回顶部";
       } else {
         $navTotop.classList.remove("long");
         $percentBtn.textContent = percentage;
@@ -663,7 +684,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const $cardTocLayout = document.getElementById("card-toc");
       $cardToc = $cardTocLayout.querySelector(".toc-content");
       $tocLink = $cardToc.querySelectorAll(".toc-link");
-      $tocPercentage = $cardTocLayout.querySelector(".toc-percentage");
       isExpand = $cardToc.classList.contains("is-expand");
 
       // toc元素點擊
@@ -673,7 +693,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         e.preventDefault();
         anzhiyu.scrollToDest(
-          anzhiyu.getEleTop(document.getElementById(decodeURI(target.getAttribute("href")).replace("#", ""))),
+          anzhiyu.getEleTop(document.getElementById(decodeURI(target.getAttribute("href")).replace("#", ""))) - 60,
           300
         );
         if (window.innerWidth < 900) {
@@ -768,7 +788,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (mode === "light") {
       menuDarkmodeText.textContent = "深色模式";
     } else {
-      menuDarkmodeText.textContent = "淺色模式";
+      menuDarkmodeText.textContent = "浅色模式";
     }
 
     if (!GLOBAL_CONFIG_SITE.isPost) {
@@ -1068,7 +1088,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const commentContainer = document.getElementById("post-comment");
     const handleSwitchBtn = () => {
       commentContainer.classList.toggle("move");
-      if (!switchDone) {
+      if (!switchDone && typeof loadOtherComment === "function") {
         switchDone = true;
         loadOtherComment();
       }
@@ -1432,12 +1452,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const timer = setInterval(() => {
       if (navMusicEl && navMusicEl.querySelector("#nav-music meting-js").aplayer) {
         clearInterval(timer);
-        let msgPlay = '<i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音樂</span>';
-        let msgPause = '<i class="anzhiyufont anzhiyu-icon-pause"></i><span>暫停音樂</span>';
+        let msgPlay = '<i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span>';
+        let msgPause = '<i class="anzhiyufont anzhiyu-icon-pause"></i><span>暂停音乐</span>';
         navMusicEl.querySelector("#nav-music meting-js").aplayer.on("pause", function () {
           navMusicEl.classList.remove("playing");
           document.getElementById("menu-music-toggle").innerHTML = msgPlay;
-          document.getElementById("nav-music-hoverTips").innerHTML = "音樂已暫停";
+          document.getElementById("nav-music-hoverTips").innerHTML = "音乐已暂停";
           document.querySelector("#consoleMusic").classList.remove("on");
           anzhiyu_musicPlaying = false;
           navMusicEl.classList.remove("stretch");
@@ -1455,7 +1475,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 开发者工具键盘监听
   window.onkeydown = function (e) {
-    123 === e.keyCode && anzhiyu.snackbarShow("開發者模式已打開，請遵循GPL協議", !1);
+    123 === e.keyCode && anzhiyu.snackbarShow("开发者模式已打开，请遵循GPL协议", !1);
   };
 
   // 欢迎语
@@ -1527,7 +1547,7 @@ document.addEventListener("DOMContentLoaded", function () {
         new LingQue.Monitor().init({ id: GLOBAL_CONFIG.LA51.LingQueMonitorID, sendSuspicious: true });
       })
       .catch(error => {
-        console.error("載入51a統計異常，本地載入403是正常情況:", error);
+        console.error("加载51a统计异常，本地加载403是正常情况:", error);
       });
   }
 
@@ -1570,7 +1590,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (isEscapeKeyPressed) {
         anzhiyu.hideLoading();
         anzhiyu.hideConsole();
-        rm.hideRightMenu();
+        rm && rm.hideRightMenu();
       }
       const shortcutKeyDelay = GLOBAL_CONFIG.shortcutKey.delay ? GLOBAL_CONFIG.shortcutKey.delay : 100;
       const shortcutKeyShiftDelay = GLOBAL_CONFIG.shortcutKey.shiftDelay ? GLOBAL_CONFIG.shortcutKey.shiftDelay : 200;
