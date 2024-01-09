@@ -1,0 +1,10 @@
+div.aplayer-narrow > div.aplayer-body{
+    left: -66px !important;
+}
+
+div.aplayer-narrow:hover > div.aplayer-body{
+    left: 0px !important;
+}
+
+
+
