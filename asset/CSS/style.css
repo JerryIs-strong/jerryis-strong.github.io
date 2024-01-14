@@ -16,11 +16,3 @@ div.announcementTxt{
     cursor: pointer;
 }
 
-div.announcementTxt:hover{
-    padding: 5px 0px 5px 12px;
-}
-
-i.fa-terminal{
-    margin-right: 8px;
-}
-
