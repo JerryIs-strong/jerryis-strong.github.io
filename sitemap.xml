@@ -65,6 +65,15 @@
   </url>
   
   <url>
+    <loc>https://jerryis-strong.github.io/bangumis/index.html</loc>
+    
+    <lastmod>2024-01-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jerryis-strong.github.io/categories/index.html</loc>
     
     <lastmod>2024-01-16</lastmod>
@@ -75,15 +84,6 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/essay/index.html</loc>
-    
-    <lastmod>2024-01-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/bangumis/index.html</loc>
     
     <lastmod>2024-01-16</lastmod>
     
