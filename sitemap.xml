@@ -47,25 +47,16 @@
   </url>
   
   <url>
-    <loc>https://jerryis-strong.github.io/categories/index.html</loc>
-    
-    <lastmod>2024-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/essay/index.html</loc>
-    
-    <lastmod>2024-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jerryis-strong.github.io/bangumis/index.html</loc>
+    
+    <lastmod>2024-01-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/categories/index.html</loc>
     
     <lastmod>2024-01-20</lastmod>
     
@@ -84,15 +75,6 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/link/index.html</loc>
-    
-    <lastmod>2024-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/music/index.html</loc>
     
     <lastmod>2024-01-20</lastmod>
     
@@ -184,6 +166,13 @@
   </url>
   
   <url>
+    <loc>https://jerryis-strong.github.io/tags/Design/</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jerryis-strong.github.io/tags/Linux/</loc>
     <lastmod>2024-01-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -192,13 +181,6 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/tags/Terminal/</loc>
-    <lastmod>2024-01-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/tags/Design/</loc>
     <lastmod>2024-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -235,14 +217,14 @@
   </url>
   
   <url>
-    <loc>https://jerryis-strong.github.io/categories/Notepad/</loc>
+    <loc>https://jerryis-strong.github.io/categories/Design/</loc>
     <lastmod>2024-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jerryis-strong.github.io/categories/Design/</loc>
+    <loc>https://jerryis-strong.github.io/categories/Notepad/</loc>
     <lastmod>2024-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
