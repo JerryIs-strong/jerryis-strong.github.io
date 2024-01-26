@@ -159,13 +159,6 @@
   </url>
   
   <url>
-    <loc>https://jerryis-strong.github.io/tags/%E5%B0%88%E9%A1%8C/</loc>
-    <lastmod>2024-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jerryis-strong.github.io/tags/Design/</loc>
     <lastmod>2024-01-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -196,21 +189,7 @@
 
   
   <url>
-    <loc>https://jerryis-strong.github.io/categories/Android/</loc>
-    <lastmod>2024-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/categories/Windows/</loc>
-    <lastmod>2024-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/categories/XIAOMI/</loc>
+    <loc>https://jerryis-strong.github.io/categories/Technology/</loc>
     <lastmod>2024-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
