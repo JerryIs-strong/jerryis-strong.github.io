@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>部署靜態個人網頁</title>
+      <link href="/posts/jp-5465/"/>
+      <url>/posts/jp-5465/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/image/gallery/5465/01.png"></p><h2 id="克隆倉庫"><a href="#克隆倉庫" class="headerlink" title="克隆倉庫"></a>克隆倉庫</h2><ol><li>訪問<a href="https://github.com/JerryIs-strong/personal-webpage">JerryIs-strong&#x2F;personal-webpage</a></li><li>點擊<code>Fork</code></li><li>點擊<code>Create fork</code></li><li>此項目成功克隆至你的倉庫</li></ol><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><ol><li>根據<a href="https://github.com/JerryIs-strong/personal-webpage?tab=readme-ov-file#%E9%85%8D%E7%BD%AE%E9%A0%85">文檔</a>對<code>setting.json</code>經行修改</li></ol><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><ol><li>以<a href="https://medium.com/flycode/how-to-deploy-a-static-website-for-free-using-github-pages-8eddc194853b">Github Page部署</a></li><li>以<a href="https://alphasec.io/how-to-deploy-a-static-website-with-netlify/">Netlify部署</a></li><li>以<a href="https://stefankudla.com/posts/how-to-deploy-a-static-html-css-and-javascript-website-to-vercel">Vercel部署</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Technology </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Web development </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>更新日志</title>
       <link href="/posts/jp-34223/"/>
       <url>/posts/jp-34223/</url>
