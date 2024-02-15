@@ -13,6 +13,11 @@
   src: url(./SmileySans-Oblique.ttf);
 }
 
+@font-face {
+  font-family: YeZiGongChangCangNanShouJi;
+  src: url(./YeZiGongChangCangNanShouJi.ttf);
+}
+
 /* #article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not( .no-text-decoration ) {
   font-weight: 500;
   border-bottom: solid 2px var(--anzhiyu-lighttext);
