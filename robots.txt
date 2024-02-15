@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /posts/jp-42001/
+Allow: /
 
 Sitemap: https://jerryis-strong.github.io/sitemap.xml
