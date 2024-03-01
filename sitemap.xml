@@ -122,20 +122,6 @@
   </url>
   
   <url>
-    <loc>https://jerryis-strong.github.io/tags/Windows/</loc>
-    <lastmod>2024-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jerryis-strong.github.io/tags/Script-Project/</loc>
-    <lastmod>2024-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jerryis-strong.github.io/tags/XIAOMI/</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -144,6 +130,20 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/tags/PRESS-CONFERENCE/</loc>
+    <lastmod>2024-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/tags/Windows/</loc>
+    <lastmod>2024-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/tags/Script-Project/</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
