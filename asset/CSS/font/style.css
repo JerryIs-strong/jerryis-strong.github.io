@@ -1,9 +1,4 @@
 @font-face {
-    font-family: XiaolaiSC;
-    src: url(./XiaolaiSC-Regular.ttf);
-}
-
-@font-face {
   font-family: LXGWMarkerGothic;
   src: url(./LXGWMarkerGothic-Regular.ttf);
 }
@@ -14,8 +9,8 @@
 }
 
 @font-face {
-  font-family: YeZiGongChangCangNanShouJi;
-  src: url(./YeZiGongChangCangNanShouJi.ttf);
+  font-family: MiSans;
+  src: url(./MiSans-VF.ttf);
 }
 
 /* #article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not( .no-text-decoration ) {
