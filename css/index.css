@@ -4043,9 +4043,10 @@ h1.page-title + .tag-cloud-list {
 #article-container {
   word-wrap: break-word;
   overflow-wrap: break-word;
+  text-align: justify;
 }
 #article-container a {
-  color: #d58cb4;
+  color: #3a6685;
 }
 #article-container a:hover {
   text-decoration: underline;
