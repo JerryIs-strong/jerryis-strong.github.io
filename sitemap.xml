@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://jerryis-strong.github.io/posts/7533/</loc>
+    
+    <lastmod>2024-05-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jerryis-strong.github.io/about/index.html</loc>
     
     <lastmod>2024-05-24</lastmod>
@@ -73,6 +82,27 @@
   
   <url>
     <loc>https://jerryis-strong.github.io/tags/Script-Project/</loc>
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/tags/Root/</loc>
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/tags/Magisk/</loc>
+    <lastmod>2024-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jerryis-strong.github.io/tags/Android/</loc>
     <lastmod>2024-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
