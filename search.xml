@@ -18,7 +18,7 @@
 </ol>
 <h2 id="溫馨提示"><a href="#溫馨提示" class="headerlink" title="溫馨提示"></a>溫馨提示</h2><p>金鑰管理服務 (KMS) 用戶端啟用的過程中會與KMS主機進行資料交互，因爲KMS主機啟動的電腦具有特定的產品金鑰，與此同時，Windows activator使用了公共的KMS主機進行激活作業，我們無法確保妳資料100%的安全，因此我們僅建議作爲學習與研究用途(VM machine)的電腦中使用。</p>
 <hr>
-<h2 id="資源下載"><a href="#資源下載" class="headerlink" title="資源下載"></a>資源下載</h2><p>文件名稱: windows._.activation.bat<br>文件鏈接: <a class="link"   href="https://drive.google.com/file/d/1-23fzQTs-N7l70Vk4YShOhUrOBIAznmR/view?usp=sharing" >Google Drive <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>Hash(md5): 2e2a2dfaec6f1ff881e19b274c34f47c<br>Virustotal: No security vendors and no sandboxes flagged this file as malicious</p>
+<h2 id="資源下載"><a href="#資源下載" class="headerlink" title="資源下載"></a>資源下載</h2><p>文件名稱: windows._.activation.bat<br>文件鏈接: <a href="https://drive.google.com/file/d/1-23fzQTs-N7l70Vk4YShOhUrOBIAznmR/view?usp=sharing">Google Drive</a><br>Hash(md5): 2e2a2dfaec6f1ff881e19b274c34f47c<br>Virustotal: No security vendors and no sandboxes flagged this file as malicious</p>
 ]]></content>
       <categories>
         <category>Technology</category>
@@ -45,41 +45,33 @@
 <li>失去官方支持 - 絕大部分手機廠商不支持向已經獲取Root權限的設備提供售後服務,同時亦可能失去由官方提供的系統更新與維護服務。</li>
 <li>應用不支持已取得”Root”權限的設備 - 如銀行等應用通常要求設備有較高的安全等級，保證設備不被篡改。</li>
 </ol>
-<p>事實上，在設備解開BL(Bootloader)的一刻，設備不會再被<a class="link"   href="https://developer.android.com/google/play/integrity?hl=zh-tw" >“Play Integrity” <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>所認證。</p>
-<h3 id="什麽是”Magisk-Manager”"><a href="#什麽是”Magisk-Manager”" class="headerlink" title="什麽是”Magisk Manager”?"></a>什麽是”Magisk Manager”?</h3>
-  <div class="note p-4 mb-4 rounded-small info">
-    <p>僅從官方Github頁面下載Magisk,未知來源的文件可能不懷好意!</p>
-
-  </div>
-<p>“Magisk Manager”是一款用於管理和修改安卓手機”Root”權限的著名工具應用程序，負責協助我們取得、分配、與管理這個超級用戶權限，也是當今較爲流行的一款”超級用戶權限”管理器。值得注意的是，”Magisk Manager”現在擁有由其他開發者開發的分支，如<a class="link"   href="https://github.com/HuskyDG/magisk-files" >“Kitsune Magisk(原Magisk Delta)” <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>、<a class="link"   href="https://github.com/CoderTyn/Magisk-Alpha" >“Magisk Alpha” <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，這些分支是通過對”Magisk Manager”官方應用修改而來，他們可能擁有更好的隱藏性能與其他額外的輔助功能，用戶可自行嘗試。</p>
+<p>事實上，在設備解開BL(Bootloader)的一刻，設備不會再被<a href="https://developer.android.com/google/play/integrity?hl=zh-tw">“Play Integrity”</a>所認證。</p>
+<h3 id="什麽是”Magisk-Manager”"><a href="#什麽是”Magisk-Manager”" class="headerlink" title="什麽是”Magisk Manager”?"></a>什麽是”Magisk Manager”?</h3><div class="note note-info">
+            <p>僅從官方Github頁面下載Magisk,未知來源的文件可能不懷好意!</p>
+          </div>
+<p>“Magisk Manager”是一款用於管理和修改安卓手機”Root”權限的著名工具應用程序，負責協助我們取得、分配、與管理這個超級用戶權限，也是當今較爲流行的一款”超級用戶權限”管理器。值得注意的是，”Magisk Manager”現在擁有由其他開發者開發的分支，如<a href="https://github.com/HuskyDG/magisk-files">“Kitsune Magisk(原Magisk Delta)”</a>、<a href="https://github.com/CoderTyn/Magisk-Alpha">“Magisk Alpha”</a>，這些分支是通過對”Magisk Manager”官方應用修改而來，他們可能擁有更好的隱藏性能與其他額外的輔助功能，用戶可自行嘗試。</p>
 <h2 id="準備工作"><a href="#準備工作" class="headerlink" title="準備工作"></a>準備工作</h2><h3 id="尋找資源"><a href="#尋找資源" class="headerlink" title="尋找資源"></a>尋找資源</h3><p>常見的資源&#x2F;交流平臺:</p>
 <ul>
-<li><a class="link"   href="https://forum.xda-developers.com/" >xda: 聚集了全球各地的開發者 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.coolapk.com/" >Coolapk: 聚集了全國業餘開發者 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a href="https://forum.xda-developers.com/">xda: 聚集了全球各地的開發者</a></li>
+<li><a href="https://www.coolapk.com/">Coolapk: 聚集了全國業餘開發者</a></li>
 </ul>
 <p>瞭解更多:</p>
 <ul>
-<li><a class="link"   href="https://www.youtube.com/watch?v=AcWvTfdm1vE" >Linzin 阿哲 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.youtube.com/watch?v=wz-ErdDf8AM&t=414s" >極客灣Geekerwan <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.bilibili.com/video/BV1CM411f7vf/?spm_id_from=333.999.0.0&vd_source=47382271a1d0750dd75f1b095a12ba29" >TAT趙 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.bilibili.com/video/BV1Y64y1v7y2/?spm_id_from=333.999.0.0&vd_source=47382271a1d0750dd75f1b095a12ba29" >承重墻 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a href="https://www.youtube.com/watch?v=AcWvTfdm1vE">Linzin 阿哲</a></li>
+<li><a href="https://www.youtube.com/watch?v=wz-ErdDf8AM&t=414s">極客灣Geekerwan</a></li>
+<li><a href="https://www.bilibili.com/video/BV1CM411f7vf/?spm_id_from=333.999.0.0&vd_source=47382271a1d0750dd75f1b095a12ba29">TAT趙</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Y64y1v7y2/?spm_id_from=333.999.0.0&vd_source=47382271a1d0750dd75f1b095a12ba29">承重墻</a></li>
 </ul>
 <h2 id="For-Samsung-Galaxy"><a href="#For-Samsung-Galaxy" class="headerlink" title="For Samsung Galaxy"></a>For Samsung Galaxy</h2><p>由於Samsung比較特殊的原因，因此第一次的刷機過程還是比較坎坷(ಥ _ ಥ)<br>好了，衆所周知一般刷機可以以卡刷卡刷(Via Recovery)或線刷(Via fastboot)，而我經過了一番資料搜尋之後果斷選擇了後者(主要是卡刷的教程比較少…嗎(?))</p>
-<h3 id="解鎖Bootloader"><a href="#解鎖Bootloader" class="headerlink" title="解鎖Bootloader"></a>解鎖Bootloader</h3>
-  <div class="note p-4 mb-4 rounded-small danger modern">
-    <p>部分廠商在解鎖Bootloader後會失去保修服務，如Samsung更會物理熔斷Knox芯片，你將會失去部分Samsung特色功能</p>
-
-  </div>
-
-  <div class="note p-4 mb-4 rounded-small danger modern">
-    <p>完成解鎖後會清除裝置上的所有資料，請確保解鎖前完成完整的備份</p>
-
-  </div>
-
-  <div class="note p-4 mb-4 rounded-small info modern">
-    <p>引導加載程序是供應商專有的映像，負責在設備上啟動內核。引導加載程序保護設備狀態，並負責初始化可信執行環境 (TEE)並綁定其信任根。在將執行轉移到內核之前，引導加載程序還會驗證boot分區和recovery分區的完整性。<br>在解鎖Bootloader後，使用者就可以對原來的保護分區進行寫入等操作。</p>
-
-  </div>
+<h3 id="解鎖Bootloader"><a href="#解鎖Bootloader" class="headerlink" title="解鎖Bootloader"></a>解鎖Bootloader</h3><div class="note note-danger modern">
+            <p>部分廠商在解鎖Bootloader後會失去保修服務，如Samsung更會物理熔斷Knox芯片，你將會失去部分Samsung特色功能</p>
+          </div>
+<div class="note note-danger modern">
+            <p>完成解鎖後會清除裝置上的所有資料，請確保解鎖前完成完整的備份</p>
+          </div>
+<div class="note note-info modern">
+            <p>引導加載程序是供應商專有的映像，負責在設備上啟動內核。引導加載程序保護設備狀態，並負責初始化可信執行環境 (TEE)並綁定其信任根。在將執行轉移到內核之前，引導加載程序還會驗證boot分區和recovery分區的完整性。<br>在解鎖Bootloader後，使用者就可以對原來的保護分區進行寫入等操作。</p>
+          </div>
 
 
 <p>通常我們會是用fastboot來解鎖Bootloader，但Samsung比較”特別”，只能進入Download模式進行解鎖:</p>
@@ -93,11 +85,9 @@
 <li>根據螢幕上的指示，長按音量上鍵</li>
 <li>再次按下音量上鍵完成解鎖</li>
 </ol>
-<h3 id="a-卡刷篇-刷入第三方Recovery-取得”Root”權限"><a href="#a-卡刷篇-刷入第三方Recovery-取得”Root”權限" class="headerlink" title="(a).卡刷篇: 刷入第三方Recovery&amp;取得”Root”權限"></a>(a).卡刷篇: 刷入第三方Recovery&amp;取得”Root”權限</h3>
-  <div class="note p-4 mb-4 rounded-small danger modern">
-    <p>注意: 選擇的Recovery必須與當前設備適配，不同機型&#x2F;Android version的Recovery不能通用。</p>
-
-  </div>
+<h3 id="a-卡刷篇-刷入第三方Recovery-取得”Root”權限"><a href="#a-卡刷篇-刷入第三方Recovery-取得”Root”權限" class="headerlink" title="(a).卡刷篇: 刷入第三方Recovery&amp;取得”Root”權限"></a>(a).卡刷篇: 刷入第三方Recovery&amp;取得”Root”權限</h3><div class="note note-danger modern">
+            <p>注意: 選擇的Recovery必須與當前設備適配，不同機型&#x2F;Android version的Recovery不能通用。</p>
+          </div>
 
 <p>通常在官方的Recovery中，廠商僅會提供基本的功能，而更多進階的功能。當今有OrangeFox、TWRP 等各式各樣的Recovery，而當中TWRP也是現今較為知名的rec(Recovery)。我們能在TWRP官網和XDM論壇中找到適配當前設備的Recovery:</p>
 <ol>
@@ -125,7 +115,7 @@
 </li>
 <li><p>如果Recovery包沒有問題的話，設備會成功進入到TWRP;如果設備出現不斷重啓的情況，請尋找另外一個已適配當前設備的Recovery包；並重複步驟5</p>
 </li>
-<li><p>PC進入Github下載對應的Magisk文件(.zip):<br>- <a class="link"   href="https://github.com/topjohnwu/Magisk" >Magisk Official <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>- <a class="link"   href="https://huskydg.github.io/magisk-files/" >Magisk Delta(推介，以取得更好的隱藏效果) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<li><p>PC進入Github下載對應的Magisk文件(.zip):<br>- <a href="https://github.com/topjohnwu/Magisk">Magisk Official</a><br>- <a href="https://huskydg.github.io/magisk-files/">Magisk Delta(推介，以取得更好的隱藏效果)</a></p>
 </li>
 <li><p>拖拽步驟12中下載的文件到手機中</p>
 </li>
@@ -142,21 +132,17 @@
 <li><p>成功安裝Magisk manager，如果底下的超級用戶可以點擊代表”Root”完成。恭喜你以獲得超級用戶權限，你可以開始你快樂的刷機之旅！</p>
 </li>
 </ol>
-<h3 id="b-線刷篇-修補boot以獲得”Root”權限"><a href="#b-線刷篇-修補boot以獲得”Root”權限" class="headerlink" title="(b).線刷篇: 修補boot以獲得”Root”權限"></a>(b).線刷篇: 修補boot以獲得”Root”權限</h3>
-  <div class="note p-4 mb-4 rounded-small danger modern">
-    <p>修補boot後會清除裝置上的所有資料，請確保解鎖前完成完整的備份</p>
-
-  </div>
-
-  <div class="note p-4 mb-4 rounded-small info modern">
-    <p>此章節的教學來源自Magisk App，著作權歸作者所有，如轉寄其内容請註明出處</p>
-
-  </div>
+<h3 id="b-線刷篇-修補boot以獲得”Root”權限"><a href="#b-線刷篇-修補boot以獲得”Root”權限" class="headerlink" title="(b).線刷篇: 修補boot以獲得”Root”權限"></a>(b).線刷篇: 修補boot以獲得”Root”權限</h3><div class="note note-danger modern">
+            <p>修補boot後會清除裝置上的所有資料，請確保解鎖前完成完整的備份</p>
+          </div>
+<div class="note note-info modern">
+            <p>此章節的教學來源自Magisk App，著作權歸作者所有，如轉寄其内容請註明出處</p>
+          </div>
 
 <p>儘管我們不使用或我們沒有(不懂編譯)Recovery，我們也可以提取系統的boot鏡像，並交給Magisk manager進行修補:</p>
 <ol>
-<li>由刷機包中提取boot鏡像，Samsung推介使用<a class="link"   href="https://samfw.com/firmware/" >SamFww <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>取得官方刷機包</li>
-<li>下載<a class="link"   href="https://github.com/lz4/lz4/releases" >LZ4 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>並解壓</li>
+<li>由刷機包中提取boot鏡像，Samsung推介使用<a href="https://samfw.com/firmware/">SamFww</a>取得官方刷機包</li>
+<li>下載<a href="https://github.com/lz4/lz4/releases">LZ4</a>並解壓</li>
 <li>將下載的固件包解壓到PC上</li>
 <li>打開解壓後的文件夾</li>
 <li>右鍵單擊 AP 固件文件，將鼠標懸停在 7-Zip 選項中，然後選擇Extract files</li>
@@ -176,8 +162,8 @@
 <li>在手機上下載並安裝Magisk manager:</li>
 </ol>
 <ul>
-<li><a class="link"   href="https://github.com/topjohnwu/Magisk" >Magisk Official <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://huskydg.github.io/" >Magisk Delta(推介，以取得更好的隱藏效果) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a href="https://github.com/topjohnwu/Magisk">Magisk Official</a></li>
+<li><a href="https://huskydg.github.io/">Magisk Delta(推介，以取得更好的隱藏效果)</a></li>
 </ul>
 <ol start="12">
 <li>找到系統中的File manager並安裝步驟11中下載的Magisk manager源文件(.apk)</li>
