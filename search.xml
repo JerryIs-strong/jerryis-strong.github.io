@@ -16,7 +16,7 @@
 <li>以管理員身份執行</li>
 <li>按照指引激活</li>
 </ol>
-<h2 id="溫馨提示"><a href="#溫馨提示" class="headerlink" title="溫馨提示"></a>溫馨提示</h2><p>金鑰管理服務 (KMS) 用戶端啟用的過程中會與KMS主機進行資料交互，因爲KMS主機啟動的電腦具有特定的產品金鑰，與此同時，Windows activator使用了公共的KMS主機進行激活作業，我們無法確保妳資料100%的安全，因此我們僅建議作爲學習與研究用途(VM machine)的電腦中使用。</p>
+<h2 id="溫馨提示"><a href="#溫馨提示" class="headerlink" title="溫馨提示"></a>溫馨提示</h2><p>金鑰管理服務 (KMS) 用戶端啟用的過程中會與KMS主機進行資料交互，因爲KMS主機啟動的電腦具有特定的產品金鑰，與此同時，Windows activator使用了公共的KMS主機進行激活作業，我們無法確保資料100%的安全，因此我們僅建議作爲學習與研究用途(VM machine)的電腦中使用。</p>
 <hr>
 <h2 id="資源下載"><a href="#資源下載" class="headerlink" title="資源下載"></a>資源下載</h2><p>文件名稱: windows._.activation.bat<br>文件鏈接: <a href="https://drive.google.com/file/d/1-23fzQTs-N7l70Vk4YShOhUrOBIAznmR/view?usp=sharing">Google Drive</a><br>Hash(md5): 2e2a2dfaec6f1ff881e19b274c34f47c<br>Virustotal: No security vendors and no sandboxes flagged this file as malicious</p>
 ]]></content>
